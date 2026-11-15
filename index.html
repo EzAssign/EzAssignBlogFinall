@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>EzAssign — Study Abroad & Academic Advisory Editorial</title>
+<meta name="description" content="EzAssign Blog: 34 comprehensive UK, US, and Germany intakes, universities, visas, jobs, scholarships and student life guides for international students." />
+<link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=100&auto=format&fit=crop" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+darkMode: 'class',
+theme: {
+extend: {
+fontFamily: {
+sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', '-apple-system', 'sans-serif'],
+},
+colors: {
+canvas: '#0b0b0c',
+surface: '#121214',
+elevated: '#18181b',
+hairline: '#242428',
+hairlineHover: '#3f3f46',
+accent: '#ff6a1a',
+muted: '#8e8e93',
+}
+}
+}
+};
+</script>
+<style>
+:root {
+--bg-canvas: #0b0b0c;
+--bg-surface: #121214;
+--border-hairline: #242428;
+--text-primary: #f5f5f7;
+--text-secondary: #8e8e93;
+--accent-orange: #ff6a1a;
+}
+* {
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+html {
+scroll-behavior: smooth;
+background-color: var(--bg-canvas);
+color: var(--text-primary);
+}
+body {
+margin: 0;
+background-color: var(--bg-canvas);
+color: var(--text-primary);
+font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+overflow-x: hidden;
+}
+.visuelle-index-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 0;
+border-bottom: 1px solid var(--border-hairline);
+font-size: 13.5px;
+letter-spacing: -0.01em;
+color: var(--text-secondary);
+transition: color 0.18s ease, border-color 0.18s ease, padding-left 0.18s ease;
+cursor: pointer;
+user-select: none;
+}
+.visuelle-index-row:hover {
+color: var(--text-primary);
+border-bottom-color: #52525b;
+padding-left: 4px;
+}
+.visuelle-index-row.active {
+color: #ffffff;
+border-bottom-color: #ffffff;
+font-weight: 600;
+}
+.visuelle-index-row .count-tag {
+font-size: 11px;
+font-variant-numeric: tabular-nums;
+color: #636366;
+transition: color 0.18s ease;
+}
+.visuelle-index-row.active .count-tag,
+.visuelle-index-row:hover .count-tag {
+color: var(--accent-orange);
+}
+.editorial-card {
+background-color: var(--bg-surface);
+border: 1px solid var(--border-hairline);
+border-radius: 10px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+transition: border-color 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.editorial-card:hover {
+border-color: #45454d;
+transform: translateY(-3px);
+}
+.editorial-card-img-wrap {
+position: relative;
+width: 100%;
+aspect-ratio: 16 / 10;
+overflow: hidden;
+background-color: #18181b;
+border-bottom: 1px solid var(--border-hairline);
+}
+.editorial-card-img-wrap img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+}
+.editorial-card:hover .editorial-card-img-wrap img {
+transform: scale(1.04);
+}
+::-webkit-scrollbar {
+width: 6px;
+height: 6px;
+}
+::-webkit-scrollbar-track {
+background: #0b0b0c;
+}
+::-webkit-scrollbar-thumb {
+background: #27272a;
+border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #3f3f46;
+}
+.reader-prose h2 {
+font-size: 1.35rem;
+font-weight: 700;
+letter-spacing: -0.02em;
+color: #ffffff;
+margin-top: 2.25rem;
+margin-bottom: 0.9rem;
+padding-bottom: 0.5rem;
+border-bottom: 1px solid #242428;
+}
+.reader-prose p {
+color: #d1d1d6;
+font-size: 1rem;
+line-height: 1.75;
+margin-bottom: 1.25rem;
+}
+.reader-prose ul, .reader-prose ol {
+margin-bottom: 1.5rem;
+padding-left: 1.25rem;
+color: #d1d1d6;
+}
+.reader-prose ul {
+list-style-type: disc;
+}
+.reader-prose ol {
+list-style-type: decimal;
+}
+.reader-prose li {
+margin-bottom: 0.65rem;
+line-height: 1.7;
+}
+.reader-prose strong {
+color: #ffffff;
+font-weight: 600;
+}
+.faq-body {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.faq-row.open .faq-body {
+max-height: 300px;
+}
+.faq-row.open .faq-chevron {
+transform: rotate(180deg);
+color: #ff6a1a;
+}
+</style>
+</head>
+<body class="bg-canvas text-[#f5f5f7] min-h-screen flex flex-col selection:bg-accent selection:text-white">
+<header class="w-full border-b border-hairline bg-canvas/95 backdrop-blur-md sticky top-0 z-40">
+<div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 py-5 sm:py-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<div class="lg:col-span-6 flex items-center justify-between lg:justify-start gap-4">
+<a onclick="navigateTo('home')" class="cursor-pointer group inline-flex items-baseline gap-2.5">
+<span class="text-[22px] sm:text-[25px] font-semibold tracking-[-0.04em] text-white group-hover:text-accent transition-colors">
+EzAssign
+</span>
+<span class="text-[11px] uppercase tracking-[0.16em] text-muted font-medium border border-hairline px-2 py-0.5 rounded">
+Editorial Archive
+</span>
+</a>
+<div class="flex lg:hidden items-center gap-3 text-xs text-muted">
+<button onclick="navigateTo('intake-hub')" class="hover:text-white transition-colors py-1.5 px-2.5 border border-hairline rounded-md">
+Jan 2027
+</button>
+<button onclick="scrollToSection('faq-section')" class="hover:text-white transition-colors py-1.5 px-2.5 border border-hairline rounded-md">
+FAQ
+</button>
+</div>
+</div>
+<div class="lg:col-span-6 w-full">
+<nav aria-label="Editorial Category Index" id="category-index-list" class="flex flex-col w-full"></nav>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-3.5 mt-1 text-[13px] text-muted">
+<div class="flex items-center gap-2 flex-1 min-w-[200px] max-w-xs border-b border-transparent focus-within:border-hairlineHover pb-0.5 transition-colors">
+<i class="fa-solid fa-magnifying-glass text-[11px] text-muted"></i>
+<input
+type="text"
+id="editorial-search-input"
+placeholder="Search 34+ guides..."
+oninput="handleSearch(this.value)"
+class="bg-transparent border-none outline-none text-[13px] text-white placeholder-[#636366] w-full"
+/>
+<button id="clear-search-btn" onclick="clearSearch()" class="hidden text-[11px] text-muted hover:text-white">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<div class="flex items-center gap-5 sm:gap-6">
+<a onclick="navigateTo('intake-hub')" id="nav-intake" class="cursor-pointer hover:text-white transition-colors flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-accent inline-block"></span>
+<span>Jan 2027 Intake</span>
+</a>
+<a onclick="scrollToSection('faq-section')" class="cursor-pointer hover:text-white transition-colors">
+FAQ
+</a>
+<a onclick="navigateTo('support')" id="nav-support" class="cursor-pointer hover:text-white transition-colors">
+About & Advisory
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main id="app-root" class="flex-1 w-full"></main>
+<footer class="w-full border-t border-hairline bg-[#080809] mt-24">
+<div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 py-16">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
+<div class="lg:col-span-4 pr-4">
+<a onclick="navigateTo('home')" class="cursor-pointer inline-flex items-baseline gap-2 text-[22px] font-semibold tracking-[-0.04em] text-white hover:text-accent transition-colors">
+EzAssign
+</a>
+<p class="text-[13.5px] text-muted leading-relaxed mt-3 max-w-sm">
+Your trusted academic advisory platform for study abroad applications, UK, US & German university intakes, visa guidance, and coursework assistance.
+</p>
+<div class="flex items-center gap-3 mt-6">
+<a href="https://www.instagram.com/ezassign" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-9 h-9 rounded-full border border-hairline flex items-center justify-center text-muted hover:text-white hover:border-accent transition-colors"><i class="fa-brands fa-instagram text-sm"></i></a>
+<a href="https://www.linkedin.com/company/ezassign/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-9 h-9 rounded-full border border-hairline flex items-center justify-center text-muted hover:text-white hover:border-accent transition-colors"><i class="fa-brands fa-linkedin-in text-sm"></i></a>
+<a href="https://ezassign.uk/" target="_blank" rel="noopener noreferrer" aria-label="Website" class="w-9 h-9 rounded-full border border-hairline flex items-center justify-center text-muted hover:text-white hover:border-accent transition-colors"><i class="fa-solid fa-globe text-sm"></i></a>
+<a href="https://www.youtube.com/@ezassign" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="w-9 h-9 rounded-full border border-hairline flex items-center justify-center text-muted hover:text-white hover:border-accent transition-colors"><i class="fa-brands fa-youtube text-sm"></i></a>
+</div>
+</div>
+<div class="lg:col-span-2">
+<h4 class="text-[11px] uppercase tracking-[0.14em] text-[#636366] font-semibold mb-4">Index</h4>
+<ul class="space-y-2.5 text-[13.5px] text-muted">
+<li><a onclick="selectCategory('All')" class="cursor-pointer hover:text-white transition-colors">All Guides (34)</a></li>
+<li><a onclick="selectCategory('Admissions')" class="cursor-pointer hover:text-white transition-colors">Admissions</a></li>
+<li><a onclick="selectCategory('Universities')" class="cursor-pointer hover:text-white transition-colors">Universities</a></li>
+<li><a onclick="selectCategory('Visa')" class="cursor-pointer hover:text-white transition-colors">Visa & Immigration</a></li>
+<li><a onclick="selectCategory('Careers')" class="cursor-pointer hover:text-white transition-colors">Careers & Jobs</a></li>
+<li><a onclick="selectCategory('Finance')" class="cursor-pointer hover:text-white transition-colors">Scholarships & Finance</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3">
+<h4 class="text-[11px] uppercase tracking-[0.14em] text-[#636366] font-semibold mb-4">Global Intakes</h4>
+<ul class="space-y-2.5 text-[13.5px] text-muted">
+<li><a onclick="navigateTo('intake-hub')" class="cursor-pointer hover:text-white transition-colors">January 2027 Intake Hub</a></li>
+<li><a onclick="navigateTo('country-united-kingdom')" class="cursor-pointer hover:text-white transition-colors">Study in United Kingdom 🇬🇧</a></li>
+<li><a onclick="navigateTo('country-united-states')" class="cursor-pointer hover:text-white transition-colors">Study in United States 🇺🇸</a></li>
+<li><a onclick="navigateTo('country-germany')" class="cursor-pointer hover:text-white transition-colors">Study in Germany 🇩🇪</a></li>
+<li><a onclick="navigateTo('country-canada')" class="cursor-pointer hover:text-white transition-colors">Study in Canada 🇨🇦</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3">
+<h4 class="text-[11px] uppercase tracking-[0.14em] text-[#636366] font-semibold mb-4">Student Support</h4>
+<ul class="space-y-2.5 text-[13.5px] text-muted">
+<li>
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20checked%20your%20service%20on%20EzAssign.Blog.%0AI%20need%20help%20in%20my%20Assignment." target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors inline-flex items-center gap-2">
+<i class="fa-brands fa-whatsapp text-emerald-500"></i> WhatsApp: +91-9256466594
+</a>
+</li>
+<li><a onclick="navigateTo('support')" class="cursor-pointer hover:text-white transition-colors">Request Advisory Callback</a></li>
+<li><a onclick="scrollToSection('faq-section')" class="cursor-pointer hover:text-white transition-colors">Help Center & FAQ</a></li>
+<li><a href="https://ezassign.uk/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Official Portal (ezassign.uk)</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-hairline mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[12.5px] text-[#636366]">
+<span>© 2026 EzAssign Academic Support (EZASSIGN LLP). All rights reserved.</span>
+<span>Empowering International Students Worldwide • Read-Only Editorial Edition</span>
+</div>
+</div>
+</footer>
+
+<!-- Floating WhatsApp Quick Button -->
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20am%20browsing%20your%20blog%20portal.%0AI%20need%20help%20with%20my%20assignment." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"
+class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25d366] hover:bg-[#20ba5a] text-black shadow-2xl flex items-center justify-center text-2xl transition-transform hover:scale-105">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script>
+const UNIQUE_IMAGES = [
+"https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1512314889357-e157c22f938d?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop",
+"https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1200&auto=format&fit=crop"
+];
+
+// Exactly 34 Articles (Blog 2 to Blog 35) with complete document content
+const ARTICLES_DATA = [
+{
+id: "blog-2", num: "01", category: "Visa",
+title: "UK Graduate Visa Policy (PSW): What International Students Need to Know",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "3 min read", featured: true, likes: 98, likedBySession: false,
+desc: "The Post-Study Work route (officially known as the Graduate Visa) is a major deciding factor for international students choosing the UK. Key rule updates mean your visa application submission date directly dictates how long you can stay and work post-graduation.",
+content: `<h2>Short Summary</h2><p>The Post-Study Work route (officially known as the Graduate Visa) is a major deciding factor for international students choosing the UK. However, key immigration rule updates mean your visa application submission date directly dictates how long you can stay and work post-graduation. Here is what you need to plan for to protect your long-term career goals.</p><h2>Essential Policy Highlights</h2><ul><li><strong>Duration Changes:</strong> Bachelor's and Master's degree graduates submitting their Graduate Visa application on or after January 1, 2027, will receive an 18-month visa (down from 2 years). PhD and doctoral graduates retain 3 years of eligibility.</li><li><strong>No Job Offer Needed:</strong> The Graduate Visa remains unsponsored, meaning you can work in almost any sector, switch employers freely, or start your own business without needing an upfront job offer or minimum salary threshold.</li><li><strong>Transition Strategy:</strong> Because the standard post-study window is shortened to 18 months, students aiming to settle long-term in the UK should start networking early with licensed UKVI employers to transition onto the Skilled Worker Visa track before their Graduate Visa expires.</li></ul>`
+},
+{
+id: "blog-3", num: "02", category: "Finance",
+title: "How International Students Can Win UK University Scholarships",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: true, likes: 142, likedBySession: false,
+desc: "Studying in the UK doesn't have to strain your personal finances. With international tuition fees and living costs to plan for, securing institutional or government-backed financial aid can make your education significantly more affordable.",
+content: `<h2>Short Summary</h2><p>Studying in the UK doesn't have to strain your personal finances. With international tuition fees and living costs to plan for, securing institutional or government-backed financial aid can make your education significantly more affordable. Here are the top funding opportunities open to international applicants.</p><h2>Top UK Scholarship Routes</h2><ul><li><strong>Chevening Scholarships:</strong> Fully funded UK government awards covering 100% of Master's tuition fees, monthly living stipends, return flights, and initial visa allowances for high-achieving applicants.</li><li><strong>GREAT Scholarships:</strong> Offers a minimum of £10,000 toward tuition fees for one-year taught Master's programs across participating UK universities.</li><li><strong>Commonwealth Scholarships:</strong> Targeted at students from low- and middle-income Commonwealth nations pursuing Master's or PhD programs focused on global development priorities.</li><li><strong>University Merit Awards:</strong> Direct partial tuition fee discounts (ranging from £2,000 up to 50% off) automatically awarded by individual universities based on strong academic records.</li></ul>`
+},
+{
+id: "blog-4", num: "03", category: "Careers",
+title: "Working Part-Time in the UK: Rules, Pay, and Managing Student Costs",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "3 min read", featured: true, likes: 110, likedBySession: false,
+desc: "Balancing a part-time job with university studies is a practical reality for thousands of international students across the UK. Remaining strictly compliant with your Student Visa conditions keeps your legal status safe.",
+content: `<h2>Short Summary</h2><p>Balancing a part-time job with university studies is a practical reality for thousands of international students across the UK. Remaining strictly compliant with your Student Visa conditions keeps your legal status safe while helping you cover groceries, local transit, and social activities.</p><h2>UKVI Part-Time Work Guidelines</h2><ul><li><strong>20 Hours Per Week Limit:</strong> On a standard degree-level Student Visa, you are permitted to work up to 20 hours per week while university classes are actively in session.</li><li><strong>Full-Time Work During Vacations:</strong> You can work full-time (up to 40 hours per week) during official university breaks, such as scheduled winter holidays and summer vacations.</li><li><strong>National Minimum Wage:</strong> Ensure your employer pays at least the official UK National Minimum Wage rate for your age bracket, and track all app-based or gig hours so you never accidentally cross the 20-hour weekly cap.</li></ul>`
+},
+{
+id: "blog-5", num: "04", category: "Admissions",
+title: "How to Avoid Failing Your First UK University Assignment",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: true, likes: 156, likedBySession: false,
+desc: "Many international students experience an 'academic culture shock' during their first semester in the UK. Unlike traditional educational systems that reward rote memorization, UK higher education places heavy emphasis on critical evaluation.",
+content: `<h2>Short Summary</h2><p>Many international students experience an "academic culture shock" during their first semester in the UK. Unlike traditional educational systems that reward rote memorization and descriptive summaries, UK higher education places heavy emphasis on critical evaluation, original synthesis, and clear structural presentation.</p><h2>3 Essential UK Academic Rules</h2><ul><li><strong>Move Beyond Description:</strong> Avoid simply summarizing what an author wrote. Analyze why their argument is relevant, critique its methodological limits, and explain how it supports or contradicts your core thesis.</li><li><strong>Master Paragraph Structure:</strong> Keep your arguments logical by giving every body paragraph a clear main point, supporting details, detailed explanation, and a final link back to the main question prompt.</li><li><strong>Maintain Intellectual Rigor:</strong> Ensure every claim or statement is clearly reasoned and supported throughout your analysis without relying on unstructured assertions.</li></ul>`
+},
+{
+id: "blog-6", num: "05", category: "Visa",
+title: "UK Student Visa Proof of Funds: Updated Rates Taking Effect November 2026",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: true, likes: 85, likedBySession: false,
+desc: "International students applying for a UK Student Visa must calculate living expenses carefully. The UK Home Office is raising mandatory monthly maintenance funds starting November 30, 2026.",
+content: `<h2>Short Summary</h2><p>International students applying for a UK Student Visa must calculate their living expenses carefully depending on when they submit their online application. The UK Home Office is raising the mandatory monthly maintenance funds starting November 30, 2026. If you are preparing for the January 2027 intake, missing these updated thresholds can result in an immediate visa refusal.</p><h2>Updated Monthly Maintenance Rates</h2><p><strong>Applications Submitted On or After November 30, 2026:</strong></p><ul><li>Inside London: £1,570 per month (up to 9 months), totaling £14,130.</li><li>Outside London: £1,203 per month (up to 9 months), totaling £10,827.</li></ul><p><strong>Applications Submitted Before November 30, 2026:</strong></p><ul><li>Inside London: £1,529 per month (up to 9 months), totaling £13,761.</li><li>Outside London: £1,171 per month (up to 9 months), totaling £10,539.</li></ul><p><strong>Tuition Fees on Top:</strong> These living expense figures must be held in addition to any unpaid first-year tuition fees listed on your CAS.</p><h2>The 28-Day Holding Rule</h2><p>Your account balance must stay at or above the exact required amount for 28 consecutive days without dipping even by a pound. Ensure the closing date on your bank statement is no older than 31 days on the date you submit your visa application.</p>`
+},
+{
+id: "blog-7", num: "06", category: "Universities",
+title: "Studying in Germany for 2027: Public University Fee Updates & Entry Rules",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 119, likedBySession: false,
+desc: "Germany remains one of the most affordable destinations for higher education, with most public universities charging zero tuition fees. However, recent state-level policy updates require careful budgeting.",
+content: `<h2>Short Summary</h2><p>Germany remains one of the most affordable destinations for higher education, with most public universities charging zero tuition fees. However, recent state-level policy updates mean non-EU students applying to institutions in Baden-Württemberg and select universities in Bavaria need to budget for semester tuition fees alongside standard living costs.</p><h2>What International Students Actually Pay</h2><ul><li><strong>Tuition-Free States:</strong> Public universities in Berlin, North Rhine-Westphalia, Hesse, and Saxony continue to charge €0 tuition for both undergraduate and master's programs. Students only pay a bi-annual semester contribution (typically €85 to €380) covering administrative fees and local public transit passes.</li><li><strong>Baden-Württemberg Universities:</strong> Public institutions like Heidelberg University, KIT, and the University of Stuttgart charge non-EU students €1,500 per semester in tuition.</li><li><strong>Bavaria Updates:</strong> Technical University of Munich (TUM) charges non-EU students between €2,000 and €6,000 per semester depending on the degree program, and FAU Erlangen-Nürnberg is introducing non-EU tuition fees starting in the Summer 2027 semester.</li></ul><h2>German Blocked Account Requirement (2026–2027)</h2><p>To secure a German student visa, non-EU applicants must open a Blocked Account (Sperrkonto) and deposit €11,904 for one year. Once you arrive in Germany, the bank releases €992 per month into your local current account to cover living expenses.</p>`
+},
+{
+id: "blog-8", num: "07", category: "Admissions",
+title: "Applying for a US F-1 Student Visa in 2027: New DS-160 & Interview Rules",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 92, likedBySession: false,
+desc: "Securing an F-1 student visa for the United States requires sharper preparation than ever before. Recent procedural updates at US embassies have changed how applicants book interview slots.",
+content: `<h2>Short Summary</h2><p>Securing an F-1 student visa for the United States requires sharper preparation than ever before. Recent procedural updates at US embassies and consulates have changed how applicants book interview slots and what consular officers review before approving visas.</p><h2>Critical Process Updates to Know</h2><ul><li><strong>Mandatory Completed DS-160 Before Slot Booking:</strong> You can no longer reserve a visa interview appointment using a draft DS-160 application number. You must complete, review, and officially submit your DS-160 form before accessing the appointment booking calendar.</li><li><strong>365-Day Early Application Window:</strong> You are allowed to apply for your F-1 visa up to 365 days prior to your program's start date on Form I-20. Submitting early is strongly recommended due to tight interview slot availability.</li><li><strong>Digital & Social Media Vetting:</strong> Consular screening routinely includes reviewing applicants' public online footprints. Ensure the academic history, employment timeline, and career goals listed on your professional profiles match your DS-160 form and interview answers consistently.</li></ul>`
+},
+{
+id: "blog-9", num: "08", category: "Careers",
+title: "Working Part-Time as a Student in Germany: The 140-Day Rule & Student Jobs",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 104, likedBySession: false,
+desc: "Germany offers some of the most student-friendly employment regulations in Europe, allowing international students to offset living costs while gaining practical corporate experience.",
+content: `<h2>Short Summary</h2><p>Germany offers some of the most student-friendly employment regulations in Europe, allowing international students to offset living costs while gaining practical corporate experience. Understanding how working days are calculated ensures you protect both your student visa and your reduced student health insurance rates.</p><h2>How Germany Counts Student Work Hours</h2><ul><li><strong>140 Full Days or 280 Half Days:</strong> Non-EU students can work up to 140 full days (more than 4 hours per shift) or 280 half days (up to 4 hours per shift) per calendar year without requiring extra approval from the Federal Employment Agency.</li><li><strong>20-Hour Term Limit:</strong> During active university lecture weeks, your schedule is capped at 20 hours per week. During official semester breaks, you can work full-time as long as you stay within your annual day allowance.</li><li><strong>On-Campus Exemption:</strong> Academic assistant jobs on campus—known as HiWi (Hilfswissenschaftler) roles in university labs or libraries—do not count against your 140-day annual limit.</li></ul><h2>Popular Student Job Formats</h2><ul><li><strong>Werkstudent (Working Student):</strong> Field-specific corporate part-time jobs (up to 20 hours/week) paying between €14 and €20+ per hour in IT, engineering, and business.</li><li><strong>Minijobs:</strong> Flexible roles in retail, cafes, or tutoring capped at €603 per month, which are completely tax-free for students.</li></ul>`
+},
+{
+id: "blog-10", num: "09", category: "Careers",
+title: "Working in the USA on an F-1 Visa: On-Campus Jobs, CPT & STEM OPT Rules",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 131, likedBySession: false,
+desc: "Understanding US work authorization rules from Day 1 protects your F-1 immigration status while helping you build a competitive American resume.",
+content: `<h2>Short Summary</h2><p>Understanding US work authorization rules from Day 1 protects your F-1 immigration status while helping you build a competitive American resume. International students have clear, structured pathways to work both during their degree and after graduation.</p><h2>Employment Options During Your Degree</h2><ul><li><strong>On-Campus Employment:</strong> You can work up to 20 hours per week on campus during regular semesters and full-time during official school breaks. You can start up to 30 days before classes begin.</li><li><strong>Curricular Practical Training (CPT):</strong> Allows you to take paid off-campus internships directly tied to your major curriculum after completing one full academic year. Always obtain authorization on your Form I-20 from your Designated School Official (DSO) before starting work.</li></ul><h2>Post-Graduation Work Authorization</h2><ul><li><strong>Optional Practical Training (OPT):</strong> Grants 12 months of full-time work authorization in a role directly related to your field of study.</li><li><strong>24-Month STEM OPT Extension:</strong> Graduates from qualifying Science, Technology, Engineering, and Mathematics programs can apply for a 24-month extension, providing up to 36 months of total post-study work experience in the US.</li></ul>`
+},
+{
+id: "blog-11", num: "10", category: "Admissions",
+title: "UK University Assignment Rules: Navigating Turnitin & AI Detection Policies",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 147, likedBySession: false,
+desc: "Submitting coursework at a UK university comes with strict academic integrity protocols. With universities upgrading their Turnitin AI detection filters, international students must understand compliance rules.",
+content: `<h2>Short Summary</h2><p>Submitting coursework at a UK university comes with strict academic integrity protocols. With universities upgrading their Turnitin AI detection filters and rubric enforcement, international students must understand where the line sits between permitted research assistance and academic misconduct.</p><h2>Essential UK Coursework Compliance Rules</h2><ul><li><strong>Understand Tiered AI Policies:</strong> Most UK universities enforce structured guidelines regarding AI usage. Using software tools to brainstorm outlines or check basic grammar is often permitted if declared, whereas generating prose or rewriting entire paragraphs can trigger formal academic misconduct reviews.</li><li><strong>Originality Scores:</strong> Ensuring your work reflects authentic thought and thorough individual synthesis is critical, as automated similarity checking flags improper paraphrasing and unoriginal phrasing.</li><li><strong>Keep Your Version History:</strong> Always draft your essays in digital documents that automatically log timestamped edit histories. If your work is ever flagged for review, your edit log serves as proof of authentic authorship.</li></ul>`
+},
+{
+id: "blog-12", num: "11", category: "Admissions",
+title: "How to Score a Distinction (70%+) in UK Master’s Assignments",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 165, likedBySession: false,
+desc: "In the UK grading system, a score of 70% or above earns a Distinction. Achieving this benchmark requires mastering British academic structure and critical synthesis rather than summarizing textbooks.",
+content: `<h2>Short Summary</h2><p>In the UK grading system, a score of 70% or above earns a Distinction—a benchmark that often surprises international students used to different grading scales. Achieving a Distinction requires mastering British academic structure and critical synthesis rather than summarizing textbooks.</p><h2>4 Practical Techniques to Boost Your Grades</h2><ul><li><strong>Unpack the Assessment Rubric First:</strong> Download the marking criteria grid before writing a single word. UK lecturers grade strictly against weighted categories like critical evaluation, literature synthesis, and structural clarity.</li><li><strong>Adopt Critical Counter-Arguments:</strong> To move from a Merit to a Distinction, evaluate the weaknesses of the theories you discuss. Compare two conflicting scholarly viewpoints and argue which model holds stronger empirical validity.</li><li><strong>Write Signposted Topic Sentences:</strong> Start every body paragraph with an analytical claim rather than a factual statement. Use clear transitions so the marker can follow your thesis effortlessly.</li><li><strong>Maintain Formatting Precision:</strong> Ensure your document layout, headings, and in-text signposts match professional academic formatting standards throughout your assessment.</li></ul>`
+},
+{
+id: "blog-13", num: "12", category: "Universities",
+title: "Applying to German Universities for 2027: Uni-Assist, VPD & Blocked Accounts",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 112, likedBySession: false,
+desc: "Applying to German public universities involves navigating centralized application portals and strict document verification steps. Starting your paperwork early prevents last-minute bottlenecks.",
+content: `<h2>Short Summary</h2><p>Applying to German public universities involves navigating centralized application portals and strict document verification steps. Starting your paperwork at least 4 to 6 months ahead of university deadlines prevents last-minute bottlenecks.</p><h2>Step-by-Step Application Workflow</h2><ul><li><strong>Check University Portal Requirements:</strong> While some German universities accept direct applications, over 150 institutions process international credentials through Uni-Assist.</li><li><strong>Apply Early for Your VPD (Vorprüfungsdokumentation):</strong> Many top universities require you to submit your high school or bachelor's transcripts to Uni-Assist first to obtain a VPD grade conversion certificate, which takes 4 to 6 weeks to process.</li><li><strong>Verify Country-Specific Certificates:</strong> Applicants from specific regions must obtain an APS Certificate verifying the authenticity of their academic records before applying for a German student visa.</li><li><strong>Meet Language Cutoffs:</strong> For English-taught master's programs, aim for an IELTS score of 6.5 or TOEFL iBT of 90+. For German-taught programs, TestDaF or DSH certification is standard.</li></ul>`
+},
+{
+id: "blog-14", num: "13", category: "Careers",
+title: "Landing a Sponsored Job in the UK: Guide to the Skilled Worker Visa Route",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 138, likedBySession: false,
+desc: "With standard UK Graduate Visas transitioning to an 18-month duration for applications submitted from January 2027 onward, international students must approach their job search strategically.",
+content: `<h2>Short Summary</h2><p>With standard UK Graduate Visas transitioning to an 18-month duration for applications submitted from January 2027 onward, international students must approach their job search strategically from their first semester on campus.</p><h2>Steps to Secure Employer Sponsorship</h2><ul><li><strong>Target Licensed Sponsors Early:</strong> Focus your applications on companies listed on the official UK Government Register of Licensed Sponsors. Use your university's career portal to filter employers who actively recruit international graduates.</li><li><strong>Leverage Part-Time & Placement Years:</strong> If your master's program offers an optional placement year or industry consultancy project, take it. Converting an internship into a full-time sponsored offer is one of the most reliable routes into the UK job market.</li><li><strong>Understand New Entrant Salary Discounts:</strong> Recent graduates switching from a Student or Graduate Visa qualify as "New Entrants," allowing employers to sponsor you at a lower minimum salary threshold compared to experienced overseas hires.</li></ul>`
+},
+{
+id: "blog-15", num: "14", category: "Finance",
+title: "Funding Your US Master’s Degree: Assistantships (RA/TA) & Tuition Waivers",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 175, likedBySession: false,
+desc: "While sticker tuition prices at US universities appear steep, graduate students have access to institutional funding roles that can waive up to 100% of tuition while providing monthly living stipends.",
+content: `<h2>Short Summary</h2><p>While sticker tuition prices at US universities appear steep, graduate students have access to institutional funding roles that can waive up to 100% of tuition while providing a monthly living stipend.</p><h2>Top Institutional Funding Routes in the USA</h2><ul><li><strong>Graduate Research Assistantships (GRA):</strong> Funded by faculty research grants, these roles pay you to work in university labs or assist professors with data analysis and publications.</li><li><strong>Graduate Teaching Assistantships (GTA):</strong> Involves grading undergraduate assignments, leading tutorial sessions, or supervising lab classes in exchange for partial or full tuition waivers and health insurance coverage.</li><li><strong>How to Secure One Before Arrival:</strong> Don't wait until orientation. Email faculty members whose research aligns with your background 2 to 3 months after submitting your application, attaching a concise 1-page academic CV highlighting your technical or analytical skills.</li></ul>`
+},
+{
+id: "blog-16", num: "15", category: "Visa",
+title: "Avoiding UK Student Visa Refusals: Common Financial Mistake Traps",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 79, likedBySession: false,
+desc: "Even with a confirmed university admission, an oversight in financial documentation can lead to an unexpected UK Student Visa refusal. Understanding currency fluctuations protects your application.",
+content: `<h2>Short Summary</h2><p>Even with a confirmed university admission, an oversight in financial documentation can lead to an unexpected UK Student Visa refusal. Understanding the fine print regarding currency fluctuations, family accounts, and statement timing protects your application.</p><h2>Critical Financial Traps to Avoid</h2><ul><li><strong>The Currency Fluctuation Trap:</strong> If your bank savings are held in a currency other than British Pounds (GBP), UK Visas and Immigration (UKVI) converts your funds using the official exchange rate on the exact date you submit your online application. Always maintain a safety buffer of 10% to 15% above the absolute minimum threshold to account for daily exchange rate drops.</li><li><strong>Using Unacceptable Account Types:</strong> Fixed deposits, shares, stocks, credit cards, and business accounts are strictly rejected by UKVI. Savings or current cash accounts held in your name or your parents' names are the only acceptable forms of liquid evidence.</li><li><strong>Third-Party Account Rule:</strong> You cannot use funds held by extended relatives unless they are formally designated legal guardians with proper court documentation.</li></ul>`
+},
+{
+id: "blog-17", num: "16", category: "Admissions",
+title: "Do US Universities Still Require GRE and GMAT for 2027 Admissions?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 88, likedBySession: false,
+desc: "Navigating US graduate admissions requires understanding whether your target programs enforce standardized testing. Top-tier engineering and business schools have reintroduced mandates.",
+content: `<h2>Short Summary</h2><p>Navigating US graduate admissions requires understanding whether your target programs enforce standardized testing. While many universities adopted test-optional policies during previous years, a significant number of top-tier engineering and business schools have reintroduced GRE or GMAT mandates for 2027 entry.</p><h2>Current Landscape of US Graduate Testing</h2><ul><li><strong>Engineering & STEM Programs:</strong> Elite programs in Computer Science and Data Analytics often look closely at GRE Quantitative scores, especially if your undergraduate grading scale is unfamiliar to admissions committees.</li><li><strong>Business & MBA Schools:</strong> While some programs offer test waivers based on professional work experience or high undergraduate GPA, competitive merit-based scholarships frequently favor applicants who submit strong GMAT or GRE scorecards.</li><li><strong>English Proficiency Distinction:</strong> Remember that test-optional refers only to the GRE/GMAT. International applicants must still submit an official English proficiency test score unless an institutional language waiver applies.</li></ul>`
+},
+{
+id: "blog-18", num: "17", category: "Universities",
+title: "Choosing Between TestDaF and DSH: Which German Language Test Do You Need?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 64, likedBySession: false,
+desc: "For international students planning to enroll in a German-taught degree program, proving language proficiency is non-negotiable. Universities accept TestDaF and DSH.",
+content: `<h2>Short Summary</h2><p>For international students planning to enroll in a German-taught degree program, proving language proficiency is non-negotiable. Universities across Germany typically accept two main standardized examinations: TestDaF and DSH. Choosing the right one depends on your testing timeline and location.</p><h2>Key Differences Between TestDaF and DSH</h2><ul><li><strong>TestDaF (Test Deutsch als Fremdsprache):</strong> Can be taken globally in your home country before moving to Germany. Most universities require a strong proficiency grade across all four examination sections (reading, listening, writing, speaking).</li><li><strong>DSH (Deutsche Sprachprüfung für den Hochschulzugang):</strong> Administered directly by individual German universities after arrival. Passing the advanced DSH level qualifies you for full university admission.</li><li><strong>Conditional Admission Route:</strong> Many students enroll in an intensive language course in Germany on a language-learning visa, pass the local DSH exam, and seamlessly transition into their degree program.</li></ul>`
+},
+{
+id: "blog-19", num: "18", category: "Admissions",
+title: "Mastering UK Academic Writing: How to Maintain Integrity in Your Essays",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 121, likedBySession: false,
+desc: "Academic integrity violations are handled with extreme seriousness across UK higher education institutions. Even unintentional formatting errors can result in severe grade penalties.",
+content: `<h2>Short Summary</h2><p>Academic integrity violations are handled with extreme seriousness across UK higher education institutions. Even unintentional formatting errors or poor paraphrasing can result in severe grade penalties or investigations. Mastering structured attribution is an essential survival skill.</p><h2>Core Rules of Clean Academic Writing</h2><ul><li><strong>Attribution Is Mandatory:</strong> Every time you quote, paraphrase, summarize, or reference data from an external author, you must include clear in-text attribution specifying the source.</li><li><strong>Direct Quotes Require Precision:</strong> Whenever you extract a direct sentence or phrase, include exact contextual details to give credit to the original creator.</li><li><strong>Match Every Source:</strong> Ensure every single in-text reference has a corresponding bibliographic entry in your reference list at the end of the document, arranged in professional order.</li></ul>`
+},
+{
+id: "blog-20", num: "19", category: "Universities",
+title: "Securing Off-Campus Housing in the US: A Guide for International Students",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 95, likedBySession: false,
+desc: "Finding safe, affordable accommodation near your US university campus can be challenging, especially if you arrive without local credit history. Starting early prevents stress.",
+content: `<h2>Short Summary</h2><p>Finding safe, affordable accommodation near your US university campus can be challenging, especially if you arrive without a local credit history or a domestic co-signer. Starting your search early prevents stressful housing crunches before the semester begins.</p><h2>Practical Strategies for International Students</h2><ul><li><strong>Leverage University Sublets & Verified Groups:</strong> Official university housing boards and verified student networks are great places to find upperclassmen looking to sublease apartments or fill open rooms in shared student houses.</li><li><strong>Co-Signer Alternatives:</strong> Because landlords typically run credit checks and require proof of regular income in US dollars, international students without American credit history may need to pay an upfront security deposit or utilize specialized guarantor services.</li><li><strong>Proximity to Public Transit:</strong> Prioritize apartments located near campus shuttle routes or reliable public transit lines if you do not plan on purchasing a car during your first semester.</li></ul>`
+},
+{
+id: "blog-21", num: "20", category: "Visa",
+title: "Understanding Public vs. Private Health Insurance (Krankenkasse) in Germany",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 77, likedBySession: false,
+desc: "Enrollment at any German university requires valid health insurance coverage. International students must choose between public providers like TK or AOK and private options.",
+content: `<h2>Short Summary</h2><p>Enrollment at any German university requires valid health insurance coverage (Krankenkasse). International students must choose between public providers like TK or AOK and private insurance options, keeping in mind how their choice impacts long-term employment and visa renewals.</p><h2>Public vs. Private Coverage Breakdown</h2><ul><li><strong>Public Health Insurance:</strong> Providers offer fixed monthly rates for students under 30. It covers comprehensive medical treatments, doctor visits, and prescription medications with minimal out-of-pocket costs.</li><li><strong>Private Insurance:</strong> Often preferred by older students or doctoral candidates, but requires paying medical bills upfront and seeking reimbursement later.</li><li><strong>The Exemption Rule:</strong> If you opt for private insurance upon arrival, be aware that German law generally prevents you from switching back to public insurance later during your studies.</li></ul>`
+},
+{
+id: "blog-22", num: "21", category: "Universities",
+title: "Master of Research (MRes) vs. MSc in the UK: Which One Should You Choose?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 83, likedBySession: false,
+desc: "When browsing UK university postgraduate prospectuses, international students often encounter a choice between a traditional MSc and an MRes degree.",
+content: `<h2>Short Summary</h2><p>When browsing UK university postgraduate prospectuses, international students often encounter a choice between a traditional Master of Science (MSc) and a Master of Research (MRes). Choosing the right path depends entirely on whether your career goal is corporate employment or academic research.</p><h2>Structural Differences</h2><ul><li><strong>MSc (Master of Science / Arts):</strong> Taught master's degree consisting of core lecture modules, seminars, and a 3-to-4-month summer dissertation project. Ideal for corporate career advancement and practical skill acquisition.</li><li><strong>MRes (Master of Research):</strong> Heavily research-focused program where up to 70% of your curriculum involves independent lab work, methodology training, and executing a major academic project. Designed specifically as a direct stepping stone toward a PhD.</li></ul>`
+},
+{
+id: "blog-23", num: "22", category: "Careers",
+title: "US F-1 Student Tax Obligations: What You Need to Know About SSN and Filings",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 71, likedBySession: false,
+desc: "Working on campus or participating in CPT/OPT internships in the US means you will receive income subject to federal and state tax regulations.",
+content: `<h2>Short Summary</h2><p>Working on campus or participating in CPT/OPT internships in the US means you will receive income that is subject to specific federal and state tax regulations. Understanding how tax filings work prevents legal complications during visa renewals.</p><h2>Essential US Tax Concepts for Students</h2><ul><li><strong>Social Security Number (SSN):</strong> To work legally on campus, you must secure an official job offer letter from your university employer and apply for an SSN through the Social Security Administration.</li><li><strong>FICA Tax Exemption:</strong> For your first several calendar years in the US under an F-1 visa, you are classified as a nonresident alien for tax purposes, meaning you are exempt from specific Social Security and Medicare taxes on qualified campus wages.</li><li><strong>Annual Tax Filing Requirements:</strong> Every international student in the US must file appropriate IRS documentation every year—even if they earned zero income—to maintain proper non-immigrant compliance.</li></ul>`
+},
+{
+id: "blog-24", num: "23", category: "Visa",
+title: "Transitioning from a German Student Visa to the 18-Month Job Seeker Visa",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 115, likedBySession: false,
+desc: "Germany offers exceptional post-study settlement pathways for international graduates. You are entitled to apply for an extended residence permit to secure employment.",
+content: `<h2>Short Summary</h2><p>Germany offers exceptional post-study settlement pathways for international graduates. Once you successfully finish your degree at a German university, you do not have to leave the country immediately; you are entitled to apply for an extended residence permit to secure employment.</p><h2>Key Mechanics of the Job Seeker Permit</h2><ul><li><strong>18-Month Window:</strong> Graduates receive up to 18 months to find a job matching their academic qualification level.</li><li><strong>Unrestricted Work Rights:</strong> During these 18 months, you can take on any type of employment (including full-time jobs, freelance contracts, or internships) to support yourself while searching for a permanent career role.</li><li><strong>Transition to Permanent Residency:</strong> Once you secure a qualified job meeting minimum salary thresholds, you can transition smoothly to an EU Blue Card or a German Permanent Settlement Permit after meeting statutory contribution timelines.</li></ul>`
+},
+{
+id: "blog-25", num: "24", category: "Admissions",
+title: "Balancing Academics, Part-Time Work, and Social Life Abroad",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "4 min read", featured: false, likes: 134, likedBySession: false,
+desc: "Stepping into a foreign university system while juggling part-time work hours and independent living requires structured time management.",
+content: `<h2>Short Summary</h2><p>Stepping into a foreign university system while juggling part-time work hours and independent living requires structured time management. Burnout is a common hurdle for international students during their first semester abroad.</p><h2>Practical Time-Blocking Frameworks</h2><ul><li><strong>The Digital Calendar Rule:</strong> Map out your weekly lectures, study blocks, part-time work shifts, and grocery runs in a single digital calendar. Treat your personal study blocks with the same strict punctuality as a workplace shift.</li><li><strong>Avoid Procrastination Traps by Breaking Down Assignments:</strong> Instead of waiting until two weeks before a deadline to open a major coursework prompt, spend just 30 minutes daily outlining arguments or gathering journal references.</li><li><strong>Prioritize Mental Health and Rest:</strong> Overworking your weekly job limit while sacrificing sleep impairs academic retention. Balance your schedule with campus clubs and social networks to build a reliable support system.</li></ul>`
+},
+{
+id: "blog-26", num: "25", category: "Visa",
+title: "How to Pass the UK Student Visa Credibility Interview on Your First Try",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 152, likedBySession: false,
+desc: "With the UK Home Office tightening sponsor compliance thresholds, credibility interviews have become one of the most decisive stages of the UK Student Visa application.",
+content: `<h2>Short Summary</h2><p>With the UK Home Office tightening sponsor compliance thresholds and increasing scrutiny on genuine student intent, credibility interviews have become one of the most decisive stages of the UK Student Visa application. Even if your financial statements and CAS letter are spotless, failing to articulate why you chose your specific course and university can trigger an immediate visa refusal.</p><h2>Top Questions You Must Prepare For</h2><ul><li><strong>Course & Module Specificity:</strong> "Why did you choose this exact university over other UK institutions offering the same degree?" Never give generic answers about UK rankings or weather. Name at least three core modules from your syllabus, discuss specific assessment formats, and mention campus facilities relevant to your field.</li><li><strong>Return on Investment & Career Path:</strong> "How does paying £18,000+ in international tuition make financial sense for your future career?" Be ready to explain target job titles in your home country or global market, expected salary ranges, and how the specialized skills from your degree justify the investment.</li><li><strong>Financial Provenance:</strong> "Who is funding your studies, what is their exact occupation, and how will you cover living expenses in London or outside London?" Ensure your answers match your bank statements, sponsor letters, and living-cost calculations down to the exact figures.</li><li><strong>Accommodation & Commute:</strong> "Where will you live during your first semester, and how far is it from your campus?" Know the postcode, monthly rent, and public transit commute time to your department building.</li></ul><h2>Practical Tips to Ace the Interview</h2><p>Speak naturally, never read scripts. Interviewers immediately spot memorized answers. If you have a gap of more than six months since your last qualification, clearly explain what you did during that period and connect it to your chosen course.</p>`
+},
+{
+id: "blog-27", num: "26", category: "Visa",
+title: "US F-1 Visa Duration of Status vs. Fixed Stay Rules: What Students Must Know",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 89, likedBySession: false,
+desc: "US international student regulations have entered a period of major transition regarding how long F-1 visa holders are admitted to stay in the country.",
+content: `<h2>Short Summary</h2><p>US international student regulations have entered a period of major transition regarding how long F-1 visa holders are admitted to stay in the country. Shifting away from the traditional "Duration of Status" (D/S) framework toward fixed admission periods and shorter post-graduation grace windows changes how students plan multi-year degrees, program extensions, and Optional Practical Training (OPT).</p><h2>Key Mechanics of the Fixed Admission Framework</h2><ul><li><strong>Program Length or 4-Year Cap:</strong> Rather than receiving an open-ended stay on Form I-94 for as long as you remain enrolled, the fixed-period model admits students for the exact length of their academic program up to a maximum of four years.</li><li><strong>Formal Extension of Stay (EOS) Filings:</strong> Under traditional rules, your university's Designated School Official (DSO) could extend your program end date internally within SEVIS. Under fixed-period rules, students in PhD programs or delayed graduation tracks must file a formal Extension of Stay application (Form I-539) directly with USCIS.</li><li><strong>Grace Period Reduction (60 Days to 30 Days):</strong> One of the sharpest operational changes reduces the post-completion departure grace period from 60 days down to 30 days. This gives graduates half the time previously available to prepare for departure, transfer, or ensure post-completion work authorization is filed.</li></ul><h2>How Students Should Prepare</h2><p>Track your Form I-94 end date religiously. Never rely solely on the expiration date printed on your passport visa stamp; always verify your exact admission expiration date on your official Form I-94 after every international entry.</p>`
+},
+{
+id: "blog-28", num: "27", category: "Finance",
+title: "Germany Blocked Account (Sperrkonto) 2027 Guide: Exact Amount & Providers",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 126, likedBySession: false,
+desc: "Opening a Blocked Account (Sperrkonto) is the single most important financial step for non-EU students applying for a German student visa.",
+content: `<h2>Short Summary</h2><p>Opening a Blocked Account (Sperrkonto) is the single most important financial step for non-EU students applying for a German student visa. Tied to Germany's federal student financial aid benchmark (BAföG), the mandatory deposit ensures you can support yourself without relying on public welfare.</p><h2>Exact Financial Figures for 2026–2027</h2><ul><li><strong>Annual Blocked Sum:</strong> You must deposit €11,904 to cover a standard 12-month academic year.</li><li><strong>Monthly Payout Limit:</strong> Once you arrive in Germany, register your address (Anmeldung), and link a local German current account, your provider releases €992 per month. You cannot withdraw more than €992 in a single calendar month unless you deposited extra unblocked funds.</li><li><strong>Additional Provider & Buffer Fees:</strong> When transferring money from your home bank, include an extra buffer of €100 to €250 on top of €11,904 to cover initial account setup fees, monthly maintenance charges, and international wire transfer deductions.</li></ul><h2>Choosing a Blocked Account Provider</h2><p>Digital providers (Fintiba, Expatrio, Coracle) allow international students to open accounts online within 10 to 24 hours, generate instant official blocking confirmations for embassy appointments, and bundle mandatory German student health insurance seamlessly.</p>`
+},
+{
+id: "blog-29", num: "28", category: "Admissions",
+title: "What Is Self-Plagiarism in UK Universities, and How Can It Fail Your Degree?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 141, likedBySession: false,
+desc: "Many international students assume that plagiarism only means copying someone else's words. Submitting work you previously wrote can be classified as self-plagiarism.",
+content: `<h2>Short Summary</h2><p>Many international students assume that plagiarism only means copying someone else's words. In UK higher education, however, submitting work you previously wrote for another module, an undergraduate course, or another institution is classified as self-plagiarism (or academic duplication)—an offense that carries the exact same penalties as copying from an external source.</p><h2>Why UK Universities Penalize Reusing Your Own Work</h2><ul><li><strong>Double Credit Violation:</strong> University assessment regulations state that every academic credit earned must represent fresh, original intellectual effort. Submitting the same literature review, data analysis, or essay paragraphs across two different modules attempts to earn double credit for single effort.</li><li><strong>Turnitin Institutional Repositories:</strong> When you upload an assignment to Turnitin, your paper is permanently indexed into your university's institutional database. If you paste even two paragraphs from your Autumn semester essay into your Spring dissertation, Turnitin will flag a high-percentage match against your own prior submission.</li></ul><h2>How to Safely Build Upon Your Previous Research</h2><p>If your dissertation expands upon a topic you explored in an earlier research proposal, get written permission from your supervisor specifying which sections may be developed further. If you must reference data from your own previously graded paper, treat it like any external source and include proper in-text citations.</p>`
+},
+{
+id: "blog-30", num: "29", category: "Visa",
+title: "Bringing Family to the UK on a Student Visa: Who Still Qualifies in 2027?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 118, likedBySession: false,
+desc: "One of the most searched immigration questions among mature international applicants is whether they can bring their spouse, partner, or children to the UK while studying.",
+content: `<h2>Short Summary</h2><p>One of the most searched immigration questions among mature international applicants is whether they can bring their spouse, partner, or children to the UK while studying. Under UK Home Office regulations, dependent eligibility is strictly restricted to specific postgraduate research tracks and government-sponsored scholars.</p><h2>Who Can Bring Dependents?</h2><ul><li><strong>Eligible Courses:</strong> You can only sponsor dependent partners and children if you are enrolled in a PhD or other doctoral qualification, or a research-based higher degree (such as an MPhil or qualifying research master's program lasting 9 months or longer).</li><li><strong>Taught Master's & Undergraduate Restriction:</strong> International students enrolled in standard taught master's programs (such as taught MSc, MA, or MBA courses) and bachelor's degrees are not permitted to bring dependents to the UK, unless they hold a full government-funded scholarship covering both tuition and living costs.</li></ul><h2>Financial Maintenance Requirements for Dependents</h2><p>If you qualify to bring family members, you must demonstrate additional living funds held for 28 consecutive days alongside your own student maintenance:</p><ul><li>Inside London: £845 per month (up to 9 months = £7,605) for each dependent.</li><li>Outside London: £680 per month (up to 9 months = £6,120) for each dependent.</li></ul>`
+},
+{
+id: "blog-31", num: "30", category: "Universities",
+title: "Can You Study and Get a Job in Germany Without Knowing German?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 145, likedBySession: false,
+desc: "Germany offers hundreds of tuition-free and low-cost master's programs taught 100% in English, attracting thousands of international students every year.",
+content: `<h2>Short Summary</h2><p>Germany offers hundreds of tuition-free and low-cost master's programs taught 100% in English, attracting thousands of international students every year. However, while you can easily earn your degree in English, navigating daily bureaucracy and landing a high-paying job after graduation requires a realistic strategy regarding the German language.</p><h2>Studying in English: What to Expect</h2><ul><li><strong>Admissions Requirements:</strong> English-taught master's degrees in Engineering, Computer Science, Data Science, Renewable Energy, and International Business require zero German proficiency for admission. You only need an IELTS (6.5+) or TOEFL iBT (90+) certificate.</li><li><strong>Campus Environment:</strong> Lectures, lab sessions, exams, and master's theses are conducted entirely in English, and international student offices operate bilingually.</li></ul><h2>The Job Market Reality After Graduation</h2><ul><li><strong>Where English Works:</strong> Major multinational tech firms, startups in Berlin or Munich, automotive R&D centers, and academic research institutes regularly hire English-speaking graduates in software engineering, data analytics, and AI.</li><li><strong>Where German Is Essential:</strong> Mid-sized German companies (Mittelstand), healthcare, finance, consulting, and client-facing management roles almost always require at least B2 or C1 German fluency. Taking free evening German courses during your first two semesters dramatically multiplies your post-graduation job offers.</li></ul>`
+},
+{
+id: "blog-32", num: "31", category: "Careers",
+title: "Surviving the US H-1B Lottery & Cap-Gap Rules on an F-1 STEM OPT Visa",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 133, likedBySession: false,
+desc: "For international students graduating from US universities, transitioning from an F-1 student visa to an H-1B specialty occupation work visa is the primary route to long-term employment.",
+content: `<h2>Short Summary</h2><p>For international students graduating from US universities, transitioning from an F-1 student visa to an H-1B specialty occupation work visa is the primary route to long-term employment. Understanding how the 24-month STEM OPT extension and Cap-Gap rules protect your work authorization prevents unlawful presence gaps.</p><h2>Maximizing Your Work Authorization Timeline</h2><ul><li><strong>Three Chances at the H-1B Lottery:</strong> Standard F-1 graduates receive 12 months of Post-Completion OPT. If your degree falls under a DHS-approved STEM CIP code, you can apply for a 24-month STEM OPT extension (36 months total), giving your employer up to three consecutive annual attempts to register you in the H-1B lottery.</li><li><strong>E-Verify Employer Requirement:</strong> To qualify for the 24-month STEM extension, your employer must be enrolled in the federal E-Verify program and sign a formal training plan (Form I-983) outlining your structured learning objectives.</li><li><strong>Unemployment Day Caps:</strong> During your initial 12-month OPT, you cannot accrue more than 90 days of unemployment. Once approved for STEM OPT, you receive an additional 60 days, bringing your cumulative unemployment allowance to 150 days across the entire 3-year period.</li></ul><h2>How Cap-Gap Extensions Protect You</h2><p>If your employer files a timely cap-subject H-1B petition requesting a change of status before your OPT or STEM OPT expires, Cap-Gap rules automatically bridge your F-1 status and work authorization through the start of the federal fiscal year.</p>`
+},
+{
+id: "blog-33", num: "32", category: "Visa",
+title: "UK Immigration Health Surcharge (IHS) Explained: What Healthcare Is Free?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 97, likedBySession: false,
+desc: "Before submitting your UK Student Visa application, you must pay the Immigration Health Surcharge (IHS) upfront for the entire duration of your visa.",
+content: `<h2>Short Summary</h2><p>Before submitting your UK Student Visa application, you must pay the Immigration Health Surcharge (IHS) upfront for the entire duration of your visa. While this adds a substantial upfront cost to your study abroad budget, it grants international students full access to the UK's National Health Service (NHS).</p><h2>Calculating Your IHS Cost</h2><ul><li><strong>Student Discounted Rate:</strong> International students and their eligible dependents pay a discounted rate of £776 per year (compared to £1,035 per year for standard work visas).</li><li><strong>How Half-Years Are Rounded:</strong> UKVI calculates IHS in 6-month blocks. If your course lasts 12 months, your visa typically includes an extra 4-month wrap-up period (16 months total), meaning you will be billed for 1.5 years (£1,164).</li></ul><h2>What Is Free vs. What Costs Extra Under the NHS</h2><ul><li><strong>Covered at Zero Extra Cost:</strong> Registering with a local General Practitioner (GP), hospital emergency care (A&E), specialist referrals, diagnostic scans, mental health counseling, and maternity care are completely free at the point of use.</li><li><strong>Out-of-Pocket Charges:</strong> Standard NHS prescription medications carry a flat fee per item, and routine dental checkups and optical eye tests require subsidized patient co-payments. Register with a campus GP surgery immediately upon arrival.</li></ul>`
+},
+{
+id: "blog-34", num: "33", category: "Admissions",
+title: "How to Write a Literature Review for a UK Master’s Dissertation Without Summarizing",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "5 min read", featured: false, likes: 182, likedBySession: false,
+desc: "For most international students in the UK, the final dissertation carries up to one-third of the entire degree grade—and the Literature Review is where most marks are won or lost.",
+content: `<h2>Short Summary</h2><p>For most international students in the UK, the final 10,000-to-15,000-word dissertation carries up to one-third of the entire degree grade—and the Literature Review is where most marks are won or lost. Moving away from a chronological list of summaries toward a thematic, critical synthesis is the key to securing a Merit or Distinction.</p><h2>Common Mistakes That Cost Marks</h2><ul><li><strong>The "He Said, She Said" Trap:</strong> Listing author after author ("Author A found X. Author B argued Y.") reads like an annotated bibliography rather than a critical literature review.</li><li><strong>Missing the Research Gap:</strong> A literature review exists to justify why your dissertation needs to be written. If you fail to pinpoint what existing studies overlooked, your methodology loses its purpose.</li></ul><h2>Step-by-Step Framework for a High-Scoring Literature Review</h2><ol><li><strong>Organize by Themes, Not Years:</strong> Group peer-reviewed journal articles around 3 to 4 core conceptual debates, methodologies, or variables relevant to your research question.</li><li><strong>Synthesize Authors in Conversation:</strong> Put scholars directly into dialogue within the same paragraph. Show where two studies agree, explain why a third study contradicts their findings, and evaluate which methodology is stronger.</li><li><strong>Funnel Down to Your Research Gap:</strong> Start with broad foundational theories in your field, narrow down to recent empirical studies from the last 5 years, and conclude by explicitly stating the unanswered question your dissertation will investigate.</li></ol>`
+},
+{
+id: "blog-35", num: "34", category: "Finance",
+title: "UK vs. USA vs. Germany in 2027: Which Country Offers the Best ROI?",
+author: "EzAssign Editorial Team", date: "Nov 2026", readTime: "6 min read", featured: false, likes: 215, likedBySession: false,
+desc: "Choosing between the United Kingdom, the United States, and Germany comes down to balancing upfront tuition costs, degree duration, post-study work timelines, and long-term ROI.",
+content: `<h2>Short Summary</h2><p>Choosing between the United Kingdom, the United States, and Germany comes down to balancing upfront tuition costs, degree duration, post-study work timelines, and long-term career return on investment (ROI). Here is an objective comparison to help you match the right destination to your financial and professional goals.</p><h2>Head-to-Head Comparison for 2027 Applicants</h2><ul><li><strong>United Kingdom (Speed & Global Prestige):</strong> 1-year taught Master's degrees (£16,000–£35,000 tuition) let you re-enter the workforce a full year earlier than US or German peers, saving a second year of tuition and rent. The 18-month Graduate Visa requires early networking. Best for Finance, Management, Law, and Healthcare.</li><li><strong>United States (Highest Starting Salaries & STEM Runway):</strong> 1.5-to-2-year Master's programs ($30,000–$65,000+ tuition), though Graduate Assistantships (RA/TA) can significantly offset costs. Offers up to 36 months of work authorization for STEM graduates (12-month OPT + 24-month STEM extension) and unmatched starting salaries in tech and engineering.</li><li><strong>Germany (Lowest Debt & Strong Settlement Path):</strong> 2-year Master's degrees with €0 tuition at most public universities (excluding select institutions in Baden-Württemberg and Bavaria) and an €11,904 annual blocked account requirement. Features an 18-month Job Seeker Residence Permit leading to an EU Blue Card and fast-track permanent residency.</li></ul>`
+}
+];
+
+ARTICLES_DATA.forEach((art, idx) => {
+art.img = UNIQUE_IMAGES[idx % UNIQUE_IMAGES.length];
+});
+
+const FAQ_DATA = [
+{ q: "Tell me more about EzAssign", a: "EzAssign is a premier academic advisory and student support platform specializing in university admissions, study abroad applications, coursework guidance, and career mentoring for international students worldwide." },
+{ q: "Is EzAssign Trustable?", a: "Yes, EzAssign operates as a fully registered corporate entity (EZASSIGN LLP) with a proven track record of supporting thousands of international students across the UK, Canada, Australia, and Europe with transparent, verified academic services." },
+{ q: "Reviews of EzAssign", a: "EzAssign maintains excellent ratings and positive reviews from international students on Trustpilot and Google, praising our prompt communication, reliable deadline management, and expert dissertation support." },
+{ q: "Which Type of Services Does EzAssign Provide?", a: "EzAssign provides comprehensive academic coaching, coursework guidance, dissertation formatting support, university application advisory, visa documentation checks, and assignment assistance tailored specifically for international students." },
+{ q: "How Can EzAssign Help International Students?", a: "We assist international students in maintaining high academic standards, navigating complex university marking rubrics, preparing SOPs/CVs, and meeting assignment deadlines stress-free." },
+{ q: "What is the UK January 2027 Intake deadline?", a: "Most UK universities accept applications for the January intake until November 2026. However, applying between May and August 2026 ensures faster CAS processing and visa approval." }
+];
+
+const COUNTRIES_INTAKE_DATA = [
+{ code: 'united-kingdom', name: 'United Kingdom', flag: '🇬🇧', desc: 'Renowned for world-class 1-year Master’s degrees and Graduate Route work visas.', highlightsTitle: 'Why Study in United Kingdom & 2027 Intake Highlights', details: ['The United Kingdom remains one of the world’s most prestigious study destinations.', 'Accelerated 1-year Master’s programs save substantial tuition and living costs.', 'Graduate Route visa provides 18 months of post-study work rights.'], universities: ['University of Oxford', 'University of Cambridge', 'Imperial College London', 'LSE', 'University of Edinburgh'] },
+{ code: 'united-states', name: 'United States', flag: '🇺🇸', desc: 'Home to top global universities offering cutting-edge STEM programs and OPT work extensions.', highlightsTitle: 'Why Study in United States & 2027 Intake Highlights', details: ['Home to world-leading higher education institutions with extensive research grants.', 'STEM-designated programs qualify for a 24-month OPT extension.'], universities: ['MIT', 'Stanford University', 'Harvard University', 'Caltech', 'Columbia University'] },
+{ code: 'canada', name: 'Canada', flag: '🇨🇦', desc: 'Popular for welcoming immigration policies, high post-graduation employment rates, and Co-op programs.', highlightsTitle: 'Why Study in Canada & 2027 Intake Highlights', details: ['Renowned for high quality of life and PGWP immigration pathways.', 'Co-op programs integrate paid professional work experience.'], universities: ['University of Toronto', 'UBC', 'McGill University', 'McMaster University', 'University of Alberta'] },
+{ code: 'australia', name: 'Australia', flag: '🇦🇺', desc: 'Features vibrant multicultural student cities, high living standards, and strong post-study work visa rights.', highlightsTitle: 'Why Study in Australia & 2027 Intake Highlights', details: ['World-class education standards in vibrant metropolitan cities.', 'Robust post-study work visa provisions.'], universities: ['University of Melbourne', 'University of Sydney', 'ANU', 'University of Queensland', 'Monash University'] },
+{ code: 'germany', name: 'Germany', flag: '🇩🇪', desc: 'Offers tuition-free public education and booming engineering and tech job markets.', highlightsTitle: 'Why Study in Germany & 2027 Intake Highlights', details: ['Tuition-free public higher education.', '18-month post-graduation Job Seeker residence permit.'], universities: ['TUM', 'LMU Munich', 'Heidelberg University', 'Humboldt University', 'RWTH Aachen'] },
+{ code: 'dubai-uae', name: 'Dubai (UAE)', flag: '🇦🇪', desc: 'A booming global business hub hosting international branch campuses of top-tier Western universities.', highlightsTitle: 'Why Study in Dubai (UAE) & 2027 Intake Highlights', details: ['Dynamic international business hub hosting accredited UK/US branch campuses.', 'Tax-free career prospects.'], universities: ['UOWD', 'Heriot-Watt Dubai', 'American University in Dubai', 'Birmingham Dubai', 'Manipal Dubai'] },
+{ code: 'ireland', name: 'Ireland', flag: '🇮🇪', desc: 'Europe’s tech capital housing European headquarters of global tech giants and offering a 2-year stay-back.', highlightsTitle: 'Why Study in Ireland & 2027 Intake Highlights', details: ['Europe’s Silicon Valley hosting major tech headquarters.', 'Third Level Graduate Scheme provides a 2-year stay-back.'], universities: ['Trinity College Dublin', 'UCD', 'University of Galway', 'UCC', 'Dublin City University'] },
+{ code: 'new-zealand', name: 'New Zealand', flag: '🇳🇿', desc: 'Combines exceptional education quality with stunning alpine landscapes and safe environments.', highlightsTitle: 'Why Study in New Zealand & 2027 Intake Highlights', details: ['Globally recognized qualifications in a peaceful natural environment.', 'Supportive international student frameworks.'], universities: ['University of Auckland', 'University of Otago', 'University of Canterbury', 'Victoria Wellington', 'Massey University'] },
+{ code: 'france', name: 'France', flag: '🇫🇷', desc: 'World-famous business schools (Grandes Écoles) and rich cultural heritage with affordable public tuition.', highlightsTitle: 'Why Study in France & 2027 Intake Highlights', details: ['Prestigious Grandes Écoles and elite business management programs.', 'Affordable public higher education tuition.'], universities: ['Sorbonne University', 'Institut Polytechnique de Paris', 'PSL University', 'HEC Paris', 'INSEAD'] },
+{ code: 'netherlands', name: 'Netherlands', flag: '🇳🇱', desc: 'Extensive English-taught programs, highly innovative education system, and a gateway to the EU.', highlightsTitle: 'Why Study in Netherlands & 2027 Intake Highlights', details: ['Thousands of English-taught problem-based learning programs.', 'Gateway to European corporate careers.'], universities: ['University of Amsterdam', 'Delft University of Technology', 'Utrecht University', 'Erasmus Rotterdam', 'Eindhoven University'] }
+];
+
+let currentCategory = 'All';
+let currentSearch = '';
+let currentView = 'home';
+const CATEGORIES = ['All', 'Admissions', 'Universities', 'Visa', 'Careers', 'Finance'];
+
+function renderCategoryIndex() {
+const container = document.getElementById('category-index-list');
+if (!container) return;
+container.innerHTML = CATEGORIES.map(cat => {
+const count = cat === 'All' ? ARTICLES_DATA.length : ARTICLES_DATA.filter(a => a.category === cat).length;
+const isActive = currentCategory === cat && currentView === 'home';
+return `
+<div class="visuelle-index-row ${isActive ? 'active' : ''}" onclick="selectCategory('${cat}')">
+<span>${cat}</span>
+<span class="count-tag">${String(count).padStart(2, '0')}</span>
+</div>
+`;
+}).join('');
+}
+
+function selectCategory(cat) {
+currentCategory = cat;
+currentView = 'home';
+renderCategoryIndex();
+renderHomeView();
+window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function handleSearch(val) {
+currentSearch = val.trim().toLowerCase();
+const clearBtn = document.getElementById('clear-search-btn');
+if (clearBtn) clearBtn.classList.toggle('hidden', currentSearch.length === 0);
+if (currentView !== 'home') {
+currentView = 'home';
+renderCategoryIndex();
+}
+renderHomeView();
+}
+
+function clearSearch() {
+const input = document.getElementById('editorial-search-input');
+if (input) input.value = '';
+handleSearch('');
+}
+
+function scrollToSection(id) {
+if (currentView !== 'home') {
+currentView = 'home';
+renderCategoryIndex();
+renderHomeView();
+setTimeout(() => {
+const el = document.getElementById(id);
+if (el) el.scrollIntoView({ behavior: 'smooth' });
+}, 60);
+} else {
+const el = document.getElementById(id);
+if (el) el.scrollIntoView({ behavior: 'smooth' });
+}
+}
+
+function navigateTo(route) {
+window.scrollTo({ top: 0, behavior: 'smooth' });
+if (route === 'home') {
+currentView = 'home';
+renderCategoryIndex();
+renderHomeView();
+} else if (route === 'intake-hub') {
+currentView = 'intake-hub';
+renderCategoryIndex();
+renderIntakeHubView();
+} else if (route.startsWith('country-')) {
+currentView = route;
+renderCategoryIndex();
+renderCountryView(route.replace('country-', ''));
+} else if (route === 'support') {
+currentView = 'support';
+renderCategoryIndex();
+renderSupportView();
+} else {
+const found = ARTICLES_DATA.find(a => a.id === route);
+if (found) {
+currentView = route;
+renderCategoryIndex();
+renderArticleReaderView(found);
+} else {
+currentView = 'home';
+renderCategoryIndex();
+renderHomeView();
+}
+}
+}
+
+function incrementHelpful(id, e) {
+if (e) e.stopPropagation();
+const item = ARTICLES_DATA.find(a => a.id === id);
+if (item && !item.likedBySession) {
+item.likes += 1;
+item.likedBySession = true;
+const badges = document.querySelectorAll(`[id="likes-${id}"]`);
+badges.forEach(b => b.textContent = item.likes);
+const icons = document.querySelectorAll(`[id="heart-${id}"]`);
+icons.forEach(icon => {
+icon.classList.remove('fa-regular');
+icon.classList.add('fa-solid', 'text-accent');
+});
+}
+}
+
+function renderHomeView() {
+const root = document.getElementById('app-root');
+if (!root) return;
+const filtered = ARTICLES_DATA.filter(art => {
+const matchCat = currentCategory === 'All' || art.category === currentCategory;
+const matchSearch = !currentSearch ||
+art.title.toLowerCase().includes(currentSearch) ||
+art.desc.toLowerCase().includes(currentSearch) ||
+art.category.toLowerCase().includes(currentSearch) ||
+art.num.includes(currentSearch);
+return matchCat && matchSearch;
+});
+const featuredList = ARTICLES_DATA.filter(a => a.featured);
+root.innerHTML = `
+<section class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-10 pb-8 border-b border-hairline">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<div class="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.16em] text-muted mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+<span>2027 International Admissions & Academic Archive</span>
+</div>
+<h1 class="text-3xl sm:text-5xl font-semibold tracking-[-0.035em] text-white leading-[1.08] max-w-2xl">
+Curated study abroad, visa & coursework intelligence.
+</h1>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<button onclick="navigateTo('intake-hub')" class="px-4 py-2.5 rounded-lg border border-hairline bg-surface hover:border-white text-[13px] font-medium text-white transition-colors inline-flex items-center gap-2">
+<span>Explore Jan 2027 Intake Hub</span>
+<i class="fa-solid fa-arrow-up-right-from-square text-[11px] text-muted"></i>
+</button>
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20checked%20your%20service%20on%20EzAssign.Blog.%0AI%20need%20help%20in%20my%20Assignment." target="_blank" rel="noopener noreferrer"
+class="px-4 py-2.5 rounded-lg bg-accent hover:bg-[#e55609] text-[13px] font-semibold text-white transition-colors inline-flex items-center gap-2">
+<i class="fa-brands fa-whatsapp text-sm"></i>
+<span>Coursework Help</span>
+</a>
+</div>
+</div>
+</section>
+${currentCategory === 'All' && !currentSearch ? `
+<section class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-10">
+<div class="flex items-center justify-between mb-5">
+<span class="text-[11px] uppercase tracking-[0.16em] text-muted font-semibold">Featured 2027 Briefings</span>
+<span class="text-[12px] text-[#636366]">05 Selected Guides</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+${featuredList.map((item, idx) => {
+const colSpan = idx < 2 ? 'md:col-span-6' : 'md:col-span-4';
+return `
+<article onclick="navigateTo('${item.id}')" class="${colSpan} editorial-card cursor-pointer group">
+<div class="editorial-card-img-wrap">
+<img src="${item.img}" alt="${item.title}" loading="lazy" />
+<div class="absolute top-3 left-3 flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-canvas/85 backdrop-blur-md border border-hairline text-[10px] uppercase tracking-[0.12em] font-semibold text-white">Guide ${item.num}</span>
+<span class="px-2.5 py-1 rounded bg-accent/90 text-[10px] uppercase tracking-[0.12em] font-semibold text-white">${item.category}</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-[12px] text-muted mb-2">
+<span>${item.author}</span>
+<span>${item.readTime}</span>
+</div>
+<h2 class="text-[17px] sm:text-[18px] font-semibold tracking-[-0.02em] text-white group-hover:text-accent transition-colors leading-snug mb-2">${item.title}</h2>
+<p class="text-[13.5px] text-muted line-clamp-2 leading-relaxed">${item.desc}</p>
+</div>
+<div class="pt-4 mt-4 border-t border-hairline flex items-center justify-between text-[12.5px]">
+<span class="text-white font-medium group-hover:translate-x-1 transition-transform inline-flex items-center gap-1.5">Read Guide <i class="fa-solid fa-arrow-right text-[11px] text-accent"></i></span>
+<button onclick="incrementHelpful('${item.id}', event)" class="text-muted hover:text-white inline-flex items-center gap-1.5 py-1 px-2 rounded hover:bg-elevated transition-colors">
+<i id="heart-${item.id}" class="${item.likedBySession ? 'fa-solid text-accent' : 'fa-regular'} fa-heart text-xs"></i>
+<span id="likes-${item.id}">${item.likes}</span>
+</button>
+</div>
+</div>
+</article>
+`;
+}).join('')}
+</div>
+</section>
+` : ''}
+<section id="articles-grid-section" class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-12">
+<div class="flex flex-wrap items-center justify-between gap-4 pb-5 mb-7 border-b border-hairline">
+<div class="flex items-center gap-3">
+<h2 class="text-lg font-semibold tracking-[-0.02em] text-white">${currentCategory === 'All' ? 'Complete Editorial Index' : `${currentCategory} Index`}</h2>
+<span class="text-xs text-muted border border-hairline px-2.5 py-0.5 rounded-full">${filtered.length} ${filtered.length === 1 ? 'Guide' : 'Guides'}</span>
+</div>
+${currentCategory !== 'All' || currentSearch ? `
+<button onclick="selectCategory('All'); clearSearch();" class="text-xs text-accent hover:underline">Reset Filter</button>
+` : `
+<span class="text-xs text-muted">Showing all 34 verified student guides</span>
+`}
+</div>
+${filtered.length === 0 ? `
+<div class="py-20 text-center border border-hairline rounded-xl bg-surface">
+<p class="text-white font-medium text-lg mb-2">No matching editorial guides found</p>
+<p class="text-muted text-sm mb-6">Try clearing your search keyword or selecting another category from the top index.</p>
+<button onclick="selectCategory('All'); clearSearch();" class="px-5 py-2.5 rounded-lg bg-white text-black text-xs font-semibold hover:bg-neutral-200 transition-colors">Show All 34 Guides</button>
+</div>
+` : `
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10">
+${filtered.map(art => `
+<article onclick="navigateTo('${art.id}')" class="editorial-card cursor-pointer group">
+<div class="editorial-card-img-wrap">
+<img src="${art.img}" alt="${art.title}" loading="lazy" />
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-canvas/85 backdrop-blur-md border border-hairline text-[10px] uppercase tracking-[0.12em] font-semibold text-white">${art.category}</span>
+<span class="px-2 py-0.5 rounded bg-canvas/85 backdrop-blur-md border border-hairline text-[10px] font-medium text-[#d1d1d6]">${art.readTime}</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-[11.5px] text-muted mb-2">
+<span class="font-medium text-[#a1a1aa]">Blog ${art.num} • ${art.author}</span>
+<span>${art.date}</span>
+</div>
+<h3 class="text-[16.5px] font-semibold tracking-[-0.015em] text-white group-hover:text-accent transition-colors leading-snug mb-2.5">${art.title}</h3>
+<p class="text-[13px] text-muted line-clamp-3 leading-relaxed">${art.desc}</p>
+</div>
+<div class="pt-4 mt-5 border-t border-hairline flex items-center justify-between text-[12px]">
+<span class="text-[#d1d1d6] group-hover:text-white font-medium inline-flex items-center gap-1.5">Read Full Article <i class="fa-solid fa-arrow-right text-[10px] text-accent"></i></span>
+<button onclick="incrementHelpful('${art.id}', event)" class="text-muted hover:text-white inline-flex items-center gap-1.5 py-1 px-2 rounded hover:bg-elevated transition-colors" title="Mark as helpful">
+<i id="heart-${art.id}" class="${art.likedBySession ? 'fa-solid text-accent' : 'fa-regular'} fa-heart text-xs"></i>
+<span id="likes-${art.id}">${art.likes}</span>
+</button>
+</div>
+</div>
+</article>
+`).join('')}
+</div>
+`}
+</section>
+<section class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 mt-20">
+<div class="border border-hairline rounded-2xl bg-surface p-8 sm:p-12 relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+<div class="lg:col-span-8">
+<span class="text-[11px] uppercase tracking-[0.16em] text-accent font-semibold block mb-2">24/7 International Academic Support</span>
+<h2 class="text-2xl sm:text-4xl font-semibold tracking-[-0.03em] text-white mb-3">Need help in your Coursework while studying abroad?</h2>
+<p class="text-muted text-[15px] max-w-2xl leading-relaxed">Contact EzAssign for expert academic support, dissertation structure guidance, rubric alignment, and professional assignment assistance tailored to UK, US, and European university standards.</p>
+</div>
+<div class="lg:col-span-4 flex lg:justify-end">
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20checked%20your%20service%20on%20EzAssign.Blog.%0AI%20need%20help%20in%20my%20Assignment." target="_blank" rel="noopener noreferrer"
+class="w-full sm:w-auto px-6 py-4 rounded-xl bg-[#25d366] hover:bg-[#20ba5a] text-black font-bold text-[14px] inline-flex items-center justify-center gap-2.5 transition-transform hover:-translate-y-0.5">
+<i class="fa-brands fa-whatsapp text-xl"></i>
+<span>WhatsApp (+91-9256466594)</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="faq-section" class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 mt-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<div class="lg:col-span-4">
+<span class="text-[11px] uppercase tracking-[0.16em] text-accent font-semibold block mb-2">Knowledge Base</span>
+<h2 class="text-2xl sm:text-3xl font-semibold tracking-[-0.03em] text-white mb-3">Frequently Asked Questions</h2>
+<p class="text-muted text-[14px] leading-relaxed">Essential details about EzAssign LLP, our academic advisory services, trust credentials, and 2027 intake timelines.</p>
+</div>
+<div class="lg:col-span-8 divide-y divide-hairline border-t border-b border-hairline">
+${FAQ_DATA.map((faq, idx) => `
+<div class="faq-row py-5 cursor-pointer" onclick="this.classList.toggle('open')">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-[15.5px] font-medium text-white hover:text-accent transition-colors">${faq.q}</h3>
+<i class="fa-solid fa-chevron-down faq-chevron text-xs text-muted transition-transform duration-200"></i>
+</div>
+<div class="faq-body">
+<p class="text-[14px] text-muted leading-relaxed pt-3 pr-6">${faq.a}</p>
+</div>
+</div>
+`).join('')}
+</div>
+</div>
+</section>
+`;
+}
+
+function renderArticleReaderView(art) {
+const root = document.getElementById('app-root');
+if (!root) return;
+const currentImgIdx = UNIQUE_IMAGES.indexOf(art.img);
+const inlineEditorialImg = UNIQUE_IMAGES[(currentImgIdx + 3) % UNIQUE_IMAGES.length];
+const related = ARTICLES_DATA.filter(a => a.id !== art.id).sort((a, b) => (a.category === art.category ? -1 : 1)).slice(0, 3);
+root.innerHTML = `
+<article class="max-w-[920px] mx-auto px-5 sm:px-8 pt-10 pb-16">
+<div class="flex items-center justify-between pb-6 mb-8 border-b border-hairline">
+<button onclick="navigateTo('home')" class="text-[13px] text-muted hover:text-white inline-flex items-center gap-2 transition-colors">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+<span>Back to Editorial Archive</span>
+</button>
+<span class="text-[11px] uppercase tracking-[0.14em] text-muted">Guide ${art.num} / 34</span>
+</div>
+<header class="mb-8">
+<div class="flex flex-wrap items-center gap-3 mb-4">
+<span class="px-2.5 py-1 rounded bg-accent text-[11px] uppercase tracking-[0.12em] font-semibold text-white">${art.category}</span>
+<span class="text-[12.5px] text-muted">${art.readTime}</span>
+<span class="text-hairline">•</span>
+<span class="text-[12.5px] text-muted">${art.author}</span>
+</div>
+<h1 class="text-2xl sm:text-4xl lg:text-[42px] font-semibold tracking-[-0.03em] text-white leading-[1.15]">${art.title}</h1>
+<p class="text-[16px] sm:text-[17px] text-[#a1a1aa] leading-relaxed mt-4">${art.desc}</p>
+</header>
+<div class="w-full aspect-[16/9] rounded-xl overflow-hidden border border-hairline bg-surface mb-10">
+<img src="${art.img}" alt="${art.title}" class="w-full h-full object-cover" />
+</div>
+<div class="reader-prose">
+${art.content}
+<figure class="my-10 rounded-xl overflow-hidden border border-hairline bg-surface">
+<div class="w-full aspect-[16/8] overflow-hidden">
+<img src="${inlineEditorialImg}" alt="EzAssign ${art.category} Briefing Visual" class="w-full h-full object-cover" loading="lazy" />
+</div>
+<figcaption class="px-4 py-3 border-t border-hairline text-[12px] text-muted flex items-center justify-between gap-4">
+<span>EzAssign Editorial Briefing • ${art.category} Visual Reference (Guide ${art.num})</span>
+<span class="text-[#636366] font-mono">2027 Edition</span>
+</figcaption>
+</figure>
+</div>
+<div class="mt-14 pt-6 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-4">
+<button onclick="incrementHelpful('${art.id}', event)" class="w-full sm:w-auto px-5 py-3 rounded-lg border border-hairline bg-surface hover:border-white text-[13.5px] font-medium text-white inline-flex items-center justify-center gap-2.5 transition-colors">
+<i id="heart-${art.id}" class="${art.likedBySession ? 'fa-solid text-accent' : 'fa-regular'} fa-thumbs-up"></i>
+<span>Helpful Guide (<span id="likes-${art.id}">${art.likes}</span>)</span>
+</button>
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20read%20${encodeURIComponent(art.title)}%20on%20EzAssign.Blog.%0AI%20need%20guidance." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-6 py-3 rounded-lg bg-[#25d366] hover:bg-[#20ba5a] text-black font-bold text-[13.5px] inline-flex items-center justify-center gap-2 transition-colors">
+<i class="fa-brands fa-whatsapp text-base"></i>
+<span>Discuss with EzAssign Advisor</span>
+</a>
+</div>
+</article>
+<section class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-12 border-t border-hairline">
+<h2 class="text-lg font-semibold tracking-[-0.02em] text-white mb-6">Related Editorial Briefings</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+${related.map(rel => `
+<article onclick="navigateTo('${rel.id}')" class="editorial-card cursor-pointer group">
+<div class="editorial-card-img-wrap"><img src="${rel.img}" alt="${rel.title}" loading="lazy" /></div>
+<div class="p-5">
+<span class="text-[10px] uppercase tracking-[0.12em] text-accent font-semibold block mb-1.5">${rel.category}</span>
+<h3 class="text-[15.5px] font-semibold text-white group-hover:text-accent transition-colors leading-snug">${rel.title}</h3>
+</div>
+</article>
+`).join('')}
+</div>
+</section>
+`;
+}
+
+function renderIntakeHubView() {
+const root = document.getElementById('app-root');
+if (!root) return;
+root.innerHTML = `
+<section class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-10 pb-16">
+<button onclick="navigateTo('home')" class="text-[13px] text-muted hover:text-white inline-flex items-center gap-2 mb-8 transition-colors">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+<span>Back to Editorial Archive</span>
+</button>
+<div class="max-w-3xl mb-12">
+<span class="text-[11px] uppercase tracking-[0.16em] text-accent font-semibold block mb-2">Global Admissions Portal</span>
+<h1 class="text-3xl sm:text-5xl font-semibold tracking-[-0.03em] text-white leading-tight mb-4">January 2027 Intake & Global Study Destinations</h1>
+<p class="text-muted text-[16px] leading-relaxed">Select your target study destination below to review top universities, post-study work visa highlights, and direct 2027 admissions advisory channels.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+${COUNTRIES_INTAKE_DATA.map(c => `
+<div onclick="navigateTo('country-${c.code}')" class="editorial-card p-5 cursor-pointer group justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="text-3xl">${c.flag}</span>
+<span class="text-[10px] uppercase tracking-[0.12em] text-muted border border-hairline px-2 py-0.5 rounded">Jan 2027</span>
+</div>
+<h3 class="text-[17px] font-semibold text-white group-hover:text-accent transition-colors mb-2">${c.name}</h3>
+<p class="text-[12.5px] text-muted leading-relaxed">${c.desc}</p>
+</div>
+<div class="pt-4 mt-4 border-t border-hairline flex items-center justify-between text-[12px]">
+<span class="text-white font-medium">View Universities</span>
+<i class="fa-solid fa-arrow-right text-[10px] text-accent group-hover:translate-x-1 transition-transform"></i>
+</div>
+</div>
+`).join('')}
+</div>
+</section>
+`;
+}
+
+function renderCountryView(code) {
+const country = COUNTRIES_INTAKE_DATA.find(c => c.code === code);
+if (!country) { renderIntakeHubView(); return; }
+const root = document.getElementById('app-root');
+root.innerHTML = `
+<section class="max-w-[920px] mx-auto px-5 sm:px-8 pt-10 pb-16">
+<button onclick="navigateTo('intake-hub')" class="text-[13px] text-muted hover:text-white inline-flex items-center gap-2 mb-8 transition-colors">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+<span>Back to All Countries</span>
+</button>
+<div class="flex items-center gap-4 mb-6">
+<span class="text-5xl">${country.flag}</span>
+<div>
+<span class="text-[11px] uppercase tracking-[0.16em] text-accent font-semibold block">January 2027 Intake Briefing</span>
+<h1 class="text-3xl sm:text-4xl font-semibold tracking-[-0.03em] text-white">Study in ${country.name}</h1>
+</div>
+</div>
+<div class="border border-hairline rounded-2xl bg-surface p-6 sm:p-10 mb-8">
+<h2 class="text-lg font-semibold text-white mb-4">${country.highlightsTitle}</h2>
+<div class="space-y-4 text-[#d1d1d6] text-[15px] leading-relaxed">
+${country.details.map(d => `<p>${d}</p>`).join('')}
+</div>
+<h3 class="text-base font-semibold text-white mt-8 mb-4 pt-6 border-t border-hairline">Top 5 Universities for January 2027 Intake</h3>
+<ol class="space-y-2.5 text-[14.5px] text-[#d1d1d6]">
+${country.universities.map((u, idx) => `
+<li class="flex items-center gap-3">
+<span class="text-xs font-mono text-accent">0${idx + 1}</span>
+<span class="font-medium text-white">${u}</span>
+</li>
+`).join('')}
+</ol>
+</div>
+<div class="border border-hairline rounded-2xl bg-surface p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div>
+<h3 class="text-base font-semibold text-white">Need ${country.name} Admissions or Coursework Help?</h3>
+<p class="text-xs text-muted mt-1">Connect directly with an EzAssign advisor on WhatsApp or Instagram.</p>
+</div>
+<div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
+<a href="https://www.instagram.com/ezassign/" target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-lg border border-hairline hover:border-white text-xs font-semibold text-white inline-flex items-center justify-center gap-2 transition-colors"><i class="fa-brands fa-instagram"></i> Instagram</a>
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20checked%20your%20service%20on%20EzAssign.Blog.%0AI%20need%20help%20with%20studying%20in%20${encodeURIComponent(country.name)}%20for%20Jan%202027." target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-lg bg-[#25d366] hover:bg-[#20ba5a] text-xs font-bold text-black inline-flex items-center justify-center gap-2 transition-colors"><i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Advisory</a>
+</div>
+</div>
+</section>
+`;
+}
+
+function renderSupportView() {
+const root = document.getElementById('app-root');
+root.innerHTML = `
+<section class="max-w-[760px] mx-auto px-5 sm:px-8 pt-10 pb-16">
+<button onclick="navigateTo('home')" class="text-[13px] text-muted hover:text-white inline-flex items-center gap-2 mb-8 transition-colors">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+<span>Back to Editorial Archive</span>
+</button>
+<span class="text-[11px] uppercase tracking-[0.16em] text-accent font-semibold block mb-2">About & Student Consultation</span>
+<h1 class="text-3xl sm:text-4xl font-semibold tracking-[-0.03em] text-white mb-3">EzAssign Academic Advisory Desk</h1>
+<p class="text-muted text-[15px] leading-relaxed mb-8">EzAssign (EZASSIGN LLP) provides comprehensive study abroad guidance, SOP/CV reviews, visa checklist verification, and university coursework mentoring for international students across the UK, USA, Germany, Canada, and Australia.</p>
+<div id="callback-form-box" class="border border-hairline rounded-2xl bg-surface p-6 sm:p-8">
+<form onsubmit="handleCallbackSubmit(event)" class="space-y-4">
+<div>
+<label class="block text-xs uppercase tracking-[0.1em] text-muted font-semibold mb-2">Full Name</label>
+<input type="text" required placeholder="Enter your full name" class="w-full px-4 py-3 rounded-lg bg-canvas border border-hairline focus:border-white outline-none text-sm text-white" />
+</div>
+<div>
+<label class="block text-xs uppercase tracking-[0.1em] text-muted font-semibold mb-2">Email Address</label>
+<input type="email" required placeholder="student@university.ac.uk" class="w-full px-4 py-3 rounded-lg bg-canvas border border-hairline focus:border-white outline-none text-sm text-white" />
+</div>
+<div>
+<label class="block text-xs uppercase tracking-[0.1em] text-muted font-semibold mb-2">Target Country / Coursework Query</label>
+<input type="text" required placeholder="e.g., UK Jan 2027 Visa Funds or Master's Dissertation Support" class="w-full px-4 py-3 rounded-lg bg-canvas border border-hairline focus:border-white outline-none text-sm text-white" />
+</div>
+<button type="submit" class="w-full py-3.5 rounded-lg bg-accent hover:bg-[#e55609] text-white font-semibold text-sm transition-colors">Request Advisory Callback</button>
+</form>
+</div>
+</section>
+`;
+}
+
+function handleCallbackSubmit(e) {
+e.preventDefault();
+const box = document.getElementById('callback-form-box');
+if (box) {
+box.innerHTML = `
+<div class="py-8 text-center">
+<div class="w-12 h-12 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-check"></i></div>
+<h3 class="text-lg font-semibold text-white mb-2">Consultation Request Received</h3>
+<p class="text-sm text-muted max-w-md mx-auto mb-6">Thank you! An EzAssign academic advisor will reach out within 2 hours. For immediate assistance, message us directly on WhatsApp.</p>
+<div class="flex flex-wrap justify-center gap-3">
+<a href="https://wa.me/919256466594?text=Hey%20EzAssign.%0AI%20submitted%20a%20callback%20request%20on%20EzAssign.Blog." target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-[#25d366] text-black text-xs font-bold inline-flex items-center gap-2"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+<button onclick="navigateTo('home')" class="px-5 py-2.5 rounded-lg border border-hairline text-xs font-semibold text-white hover:border-white">Return to Guides</button>
+</div>
+</div>
+`;
+}
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+renderCategoryIndex();
+renderHomeView();
+});
+</script>
+</body>
+</html>
